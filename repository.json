@@ -1,0 +1,12 @@
+{
+  "category": "agents",
+  "dependencies": [],
+  "description": "agent coordination tooling: failure handling",
+  "module": "melodiecli_agents_failure_handling",
+  "name": "melodiecli-agents-failure-handling",
+  "owner": null,
+  "product_status": "PLANNED",
+  "publication_status": "NOT_PUBLISHED",
+  "requested_visibility": "PUBLIC",
+  "responsibility": "failure handling"
+}

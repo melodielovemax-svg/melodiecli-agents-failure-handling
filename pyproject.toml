@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "melodiecli-agents-failure-handling"
+version = "0.1.0"
+description = "agent coordination tooling: failure handling (status: PLANNED)"
+requires-python = ">=3.11"
+license = { text = "UNLICENSED" }
+
+[project.scripts]
+melodiecli-agents-failure-handling = "melodiecli_agents_failure_handling.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["melodiecli_agents_failure_handling*"]
